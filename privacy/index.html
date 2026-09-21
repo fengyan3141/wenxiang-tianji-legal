@@ -72,7 +72,7 @@ footer a{color:var(--dim)}
 <ul><li><strong>出生日期、出生时间、性别</strong>：用于生成命盘。</li><li><strong>出生地点</strong>（城市级）：用于真太阳时校正，<strong>不是定位，我们不获取你的精确位置</strong>。</li><li><strong>所在区域</strong>：用于黄历的节日与公众假期显示。</li><li><strong>设备时区</strong>：用于判断“今天”是哪一天。</li></ul>
 <p>不提供则无法排盘，这是本应用的核心功能。</p>
 <h3>3. AI 命理师</h3>
-<ul><li><strong>你的提问内容</strong>，以及本次提问对应的排盘依据。</li></ul>
+<ul><li><strong>你的提问内容</strong>，以及本次提问对应的排盘依据。</li><li>使用周公解梦的联网查询时，<strong>你输入的梦境描述</strong>（用于按意思匹配词条，不与命盘关联）。</li></ul>
 <p>不提供则无法使用该功能，其余功能不受影响。</p>
 <h3>4. 传图识生辰</h3>
 <ul><li><strong>你主动选择上传的图片</strong>。</li></ul>
@@ -101,13 +101,13 @@ footer a{color:var(--dim)}
 <hr>
 <h2>四、我们和谁共享</h2>
 <p>我们不出售你的个人信息。为了让功能可用，以下服务商会在各自必需的范围内处理相关信息：</p>
-<div class='tw'><table><thead><tr><th>服务商</th><th>处理什么</th><th>用于什么</th><th>所在地</th></tr></thead><tbody><tr><td>Supabase</td><td>账号、命盘、记录、反馈、图片</td><td>数据库、登录、文件存储</td><td>日本</td></tr><tr><td>阿里云百炼</td><td>AI 提问内容与排盘依据；传图识生辰的图片</td><td>生成解读、识别图片</td><td><strong>中国大陆</strong></td></tr><tr><td>Resend</td><td>收件邮箱、邮件正文</td><td>发送验证码与反馈回复邮件</td><td>美国</td></tr><tr><td>RevenueCat</td><td>匿名用户标识、订阅状态</td><td>校验订阅、管理会员</td><td>美国</td></tr><tr><td>Sentry</td><td>崩溃与错误日志（不含 IP、设备名）</td><td>定位故障</td><td>美国</td></tr><tr><td>飞书（Lark）</td><td>反馈正文、截图链接、你填的联系邮箱</td><td>把反馈转给我们本人查看和回复</td><td><strong>中国大陆</strong></td></tr><tr><td>Apple / Google</td><td>账号标识、支付与订阅信息</td><td>第三方登录、应用内购买</td><td>依其自身政策</td></tr></tbody></table></div>
+<div class='tw'><table><thead><tr><th>服务商</th><th>处理什么</th><th>用于什么</th><th>所在地</th></tr></thead><tbody><tr><td>Supabase</td><td>账号、命盘、记录、反馈、图片</td><td>数据库、登录、文件存储</td><td>日本</td></tr><tr><td>阿里云百炼</td><td>AI 提问内容与排盘依据；传图识生辰的图片；周公解梦联网查询时你输入的梦境描述</td><td>生成解读、识别图片、按意思匹配解梦词条</td><td><strong>中国大陆</strong></td></tr><tr><td>Resend</td><td>收件邮箱、邮件正文</td><td>发送验证码与反馈回复邮件</td><td>美国</td></tr><tr><td>RevenueCat</td><td>匿名用户标识、订阅状态</td><td>校验订阅、管理会员</td><td>美国</td></tr><tr><td>Sentry</td><td>崩溃与错误日志（不含 IP、设备名）</td><td>定位故障</td><td>美国</td></tr><tr><td>飞书（Lark）</td><td>反馈正文、截图链接、你填的联系邮箱</td><td>把反馈转给我们本人查看和回复</td><td><strong>中国大陆</strong></td></tr><tr><td>Apple / Google</td><td>账号标识、支付与订阅信息</td><td>第三方登录、应用内购买</td><td>依其自身政策</td></tr></tbody></table></div>
 <p>上述服务商按其自身的隐私政策处理信息。除上述情形外，<strong>只有在取得你的单独同意，或者法律法规、司法及行政机关依法要求时</strong>，我们才会对外提供你的个人信息。</p>
 <p><strong>转让与公开披露</strong>：我们不会将你的个人信息转让给其他公司或个人；发生合并、收购等情形时，我们会要求承接方继续受本政策约束，否则将重新征得你的同意。我们不会公开披露你的个人信息。</p>
 <hr>
 <h2>五、跨境传输（请重点阅读）</h2>
-<p><strong>本应用的服务器在日本；AI 命理师与传图识生辰这两项功能，会把你的提问内容或图片发送到位于中国大陆的服务商（阿里云百炼）处理；你提交的意见反馈会通过飞书转发到我们本人，飞书的服务器同样在中国大陆。</strong></p>
-<ul><li>这意味着这部分信息会离开你所在的国家或地区。</li><li>我们只传输实现该功能所必需的内容，<strong>不会把你的邮箱地址、账号标识随提问一起发送给模型服务商</strong>。</li><li><strong>你可以选择不使用 AI 命理师和传图识生辰</strong>，排盘、黄历、各类占卜工具不受影响；你也可以选择不通过应用内反馈联系我们，改为直接发邮件到 support@wenxiangtianji.com。</li><li>使用 AI 命理师或传图识生辰，即表示你同意这一处理；不使用这两项功能，就不会发生这一传输。</li></ul>
+<p><strong>本应用的服务器在日本；AI 命理师、传图识生辰，以及周公解梦的联网查询这三项功能，会把你的提问内容、图片或你输入的梦境描述发送到位于中国大陆的服务商（阿里云百炼）处理；你提交的意见反馈会通过飞书转发到我们本人，飞书的服务器同样在中国大陆。</strong></p>
+<ul><li>这意味着这部分信息会离开你所在的国家或地区。</li><li>我们只传输实现该功能所必需的内容，<strong>不会把你的邮箱地址、账号标识随提问一起发送给模型服务商</strong>。</li><li><strong>你可以选择不使用 AI 命理师和传图识生辰</strong>，排盘、黄历、各类占卜工具不受影响；<strong>在你同意之前，周公解梦只在你的手机上按字面查询，不发送任何内容</strong>；你也可以选择不通过应用内反馈联系我们，改为直接发邮件到 support@wenxiangtianji.com。</li><li>我们会在你<strong>首次使用 AI 相关功能时单独提示并征得你的同意</strong>。</li></ul>
 <hr>
 <h2>六、Cookie 与同类技术</h2>
 <p>本应用是原生 iOS 应用，<strong>不使用 Cookie，也不使用广告追踪标识符</strong>。我们在你的设备本地保存少量设置（如界面语言、所在区域、是否已读某条提示），这些内容不会上传到服务器。</p>
